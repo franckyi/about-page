@@ -31,3 +31,9 @@
         transform: translateX(0px);
     }
 }
+
+@keyframes scroll {
+    0% {top: 2px;}
+    70% {top: 10px;}
+    100% {top: 2px;}
+  }
