@@ -17,6 +17,11 @@
             text-transform: capitalize;
             color: $color1;
         }
+
+        .codewars {
+            margin-top: 1em;
+            margin-bottom: 2em;
+        }
         
         .mouse-scroll {
             display: flex;
@@ -40,13 +45,6 @@
 
         &__text {
             color: $color3;
-        }
-
-        &__smile {
-            display: block;
-            padding-top: .5em;
-            padding-bottom: .5em;
-            font-size: 2.8rem;
         }
 
         &__instruction {
