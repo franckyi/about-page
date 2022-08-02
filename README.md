@@ -29,5 +29,9 @@ Run `npm run start`. Your browser should automatically open a new tab where you 
 
 Run `npm run build`. It will automatically add vendor prefixes to CSS rules and compress all your `.scss` files into one `style.css` file located in your `css` folder.
 
+### Solve common errors
 
+*Error: Missing binding ...*
+*Node Sass could not find a binding for your current environment: ...*
+run `npm rebuild node-sass`
 
