@@ -1,0 +1,33 @@
+.skills-list {
+    animation: translation 10s linear infinite;
+}
+
+@keyframes translation {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(10px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.move-x {
+    animation: translateHoriz 2s linear infinite;
+}
+
+@keyframes translateHoriz {
+    0% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(8px);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}

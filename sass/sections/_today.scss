@@ -1,0 +1,33 @@
+.today {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    min-width: 80vw;
+    background: $color2;
+
+
+    &__text {
+        padding-top: 1em;
+        padding-bottom: 1em;
+        text-align: center;
+        color: $color4;
+    }
+
+
+    &__illustration {
+        min-width: 60%;
+        max-width: 60%;
+    }
+
+
+    &__table {
+        flex-shrink: 1;
+        min-width: 40%;
+        max-width: 40%;
+        min-height: 20%;
+        background: #172e40;
+    }
+
+
+}

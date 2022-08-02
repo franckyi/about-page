@@ -1,0 +1,94 @@
+//------------------------------//
+// Font family
+//------------------------------//
+
+body {
+    font-family: $font1, sans-serif;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: $font2, sans-serif;
+}
+
+
+//------------------------------//
+// Font sizes
+//------------------------------//
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.heading,
+.subheading,
+p {
+    font-size: clamp(var(--min), var(--val), var(--max));
+}
+
+
+h1,
+.heading {
+    --min: 4em;
+    --val: 12vh;
+    --max: 10em;
+}
+
+
+.heading.my-story {
+    --min: 5em;
+    --val: 10vh;
+    --max: 8em;
+}
+
+
+.subheading {
+    --min: .5em;
+    --val: 2vh;
+    --max: .8em;
+}
+
+
+h2 {
+    --min: 1em;
+    --val: 10vh;
+    --max: 4em;
+}
+
+
+p {
+    --min: 1em;
+    --val: 1.8em;
+    --max: 2em;
+}
+
+
+//------------------------------//
+// Reusable
+//------------------------------//
+
+.heading {
+    writing-mode: vertical-lr;
+    font-family: $font2, sans-serif;
+    letter-spacing: 2.5px;
+}
+
+
+.subheading {
+    font-family: $font3, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    writing-mode: vertical-lr;
+}
+
+
+p {
+    line-height: 1.4em;
+}
