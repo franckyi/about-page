@@ -15,8 +15,8 @@
         transition: 500ms ease-in;
 
         @media (min-width: 992px) {
-            filter: contrast(100%) brightness(25%) saturate(0);
-            opacity: .5;
+            filter: contrast(100%) brightness(50%) saturate(0);
+            opacity: .8;
 
             &:hover {
                 filter: contrast(100%) brightness(100%) saturate(1);
