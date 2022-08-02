@@ -39,13 +39,19 @@ const authorHtml = document.querySelector('.reviews-slider__name');
 const titleHtml = document.querySelector('.reviews-slider__title');
 const quoteHtml = document.querySelector('.reviews-slider__review');
 
-const avatars = ['/assets/img/mb.jfif', '/assets/img/logo_dajak.png', '/assets/img/ms.jfif', '/assets/img/sb.jfif', '/assets/img/rj.jfif', '/assets/img/ml.jfif', '/assets/img/fortis.jpg', '/assets/img/lg.jpg', '/assets/img/ssp.png', '/assets/img/sauber-logo.png', '/assets/img/rs.jfif'];
+const avatars = ['/assets/img/logo-niimbot.jpeg', '/assets/img/logo-daddys.png', '/assets/img/logo-maluszka.png', '/assets/img/mb.jfif', '/assets/img/logo_dajak.png', '/assets/img/ms.jfif', '/assets/img/sb.jfif', '/assets/img/rj.jfif', '/assets/img/ml.jfif', '/assets/img/fortis.jpg', '/assets/img/lg.jpg', '/assets/img/ssp.png', '/assets/img/sauber-logo.png', '/assets/img/rs.jfif'];
 
-const authors = ['Maciej Brzezicki', 'Dominika Paneczko', 'Marcin Skoniecki', 'Sebastian Bagiński', 'Rebecca Jimenez', 'Michał Łuński', 'Pani Kasia', 'Łukasz Grucza', 'Pani Marta', 'Mateusz Deja', 'Radosław Święcki'];
+const authors = ['Daniel B', 'Michał D', 'Wiesław M', 'Maciej Brzezicki', 'Dominika Paneczko', 'Marcin Skoniecki', 'Sebastian Bagiński', 'Rebecca Jimenez', 'Michał Łuński', 'Pani Kasia', 'Łukasz Grucza', 'Pani Marta', 'Mateusz Deja', 'Radosław Święcki'];
 
-const titles = ['Chief Operating Officer', 'Właścicielka Dajaku', 'Graphic Designer w Trec Nutrition', 'Hull & Structure Engineer', 'SEO Content Coordinator at Catena Media', 'Export Manager - Trec Nutrition', 'Właścicielka szkoły Fortissimus', 'Księgowy', 'Właścicielka Sexy Shop Pleasure', 'Właściciel Sauber Serwis', 'Graphic Design Specialist'];
+const titles = ['Specjalista ds. Marketingu', 'Właściciel firmy Daddy\'s DSGN', 'Właściciel firmy Dla Maluszka', 'Chief Operating Officer', 'Właścicielka Dajaku', 'Graphic Designer w Trec Nutrition', 'Hull & Structure Engineer', 'SEO Content Coordinator at Catena Media', 'Export Manager - Trec Nutrition', 'Właścicielka szkoły Fortissimus', 'Księgowy', 'Właścicielka Sexy Shop Pleasure', 'Właściciel Sauber Serwis', 'Graphic Design Specialist'];
 
 const recommendations = [
+    'Polecam, szybka sprawna realizacja, zlecenie wykonane bez problemów!',
+
+    'Bardzo sypmtaczna osoba, kontakt wzorcowy, wszystko zrealizowane zgodnie z potrzebami! POLECAM -www.daddys.pl',
+
+    'Bardzo dobry kontakt, szybko skutecznie i profesjonalnie. Atrakcyjna cena, super doradztwo, polecam współpracę z Inside. W razie problemów ze stroną na pewno wrócę do Inside.',
+
     'I have had the pleasure of working with Francky on many important projects. Francky is very creative and has shown the important ability to use his skills to help develop Trec Nutrition products and make them attractive. He is very focused, conscientious, understands the importance of deadlines and is willing to work. I rate him as a high-class specialist and recommend him to work in the best teams.',
 
     'Pan Francky jest świetnym profesjonalistą! Współpracujemy już od pewnego czasu i jestem bardzo zadowolona z jego usług. Każde zadanie wykonuje bardzo rzetelnie oraz ceny są bardzo konkurencyjne! Serdecznie polecam!',
