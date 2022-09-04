@@ -5,10 +5,9 @@
 
 # Node artifact files & build folders
 node_modules/
-dist/
-css/
-assets/css
-assets/audio
+sass/
+package-lock.json
+package.json
 
 # Compiled Java class files
 *.class
