@@ -5,7 +5,7 @@
 
 # Node artifact files & build folders
 node_modules/
-sass/
+sass
 package-lock.json
 package.json
 
