@@ -1,0 +1,56 @@
+.btn-circle {
+
+
+    button {
+        background: none;
+        border: none;
+        font-size: 3.5rem;
+        color: $color3;
+        cursor: pointer;
+        outline: none;
+        transition: all 0.1s ease-in-out;
+
+        &:hover {
+            transform: scale(1.2);
+        }
+
+    }
+
+}
+
+
+@mixin next-content-base {
+    display: block;
+    margin-top: 1em;
+    background: none;
+    outline: none;
+    text-decoration: none;
+    font-size: clamp(1em, 1.8em, 2em);
+    letter-spacing: 2px;
+    border: 0;
+    white-space: nowrap;
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+
+    &:hover {
+        transform: scale(1.2);
+    }
+
+}
+
+
+.career-step .next-content--dark {
+    @include next-content-base;
+    color: $color2;
+}
+
+
+.reviews-slider .next-content--light {
+    @include next-content-base;
+    color: $color2;
+
+    @media (min-width: 568px) {
+        margin-top: 0.5em;
+    }
+
+}

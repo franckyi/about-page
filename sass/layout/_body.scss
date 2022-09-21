@@ -1,0 +1,35 @@
+.outer-wrapper {
+    width: 100vh;
+    height: 100vw;
+    position: absolute;
+    transform: rotate(-90deg) translateX(-100vh);
+    transform-origin: top left;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    transform: rotate(90deg) translateY(-100vh);
+    transform-origin: top left;
+}
+
+
+section {
+    min-width: 100vw;
+    height: 100vh;
+
+    @media (min-width: 760px) {
+        min-width: 44vw;
+    }
+
+}

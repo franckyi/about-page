@@ -1,0 +1,47 @@
+.skills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    min-width: 100vw;
+    background-color: $color2;
+    color: $color1;
+
+    @media (orientation: landscape) {
+        min-width: 50vw;
+    }
+
+
+    .skills-list {
+        display: flex;
+        flex-direction: column;
+        text-align: right;
+        list-style: none;
+        text-transform: uppercase;
+
+
+        &__list-item {
+            font-size: clamp(1em, 3vh, 2.4em);
+            font-weight: 800;
+            color: $color1;
+        }
+
+    }
+
+
+    .soft-skills-list {
+        text-align: left;
+        list-style: none;
+        text-transform: lowercase;
+        line-height: 3em;
+
+
+        &__list-item {
+            font-size: clamp(.7em, 2vh, 2em);
+            white-space: nowrap;
+            color: $color3;
+        }
+
+    }
+
+}

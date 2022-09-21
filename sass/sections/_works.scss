@@ -1,0 +1,29 @@
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 33.33%);
+    justify-content: start;
+    min-width: auto;
+    background: $color2;
+
+
+    &__image {
+        width: auto;
+        height: 100%;
+        filter: contrast(100%) brightness(100%) saturate(1);
+        opacity: 1;
+        transition: 500ms ease-in;
+
+        @media (min-width: 992px) {
+            filter: contrast(100%) brightness(50%) saturate(0);
+            opacity: .8;
+
+            &:hover {
+                filter: contrast(100%) brightness(100%) saturate(1);
+                opacity: 1;
+            }
+        }
+
+    }
+
+}
