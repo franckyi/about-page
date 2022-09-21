@@ -7,13 +7,13 @@ const stepHtml = document.querySelector('.career-step__text');
 
 const years = ['2012', '2014', '2016', '2018', '2019', '2019', '2021'];
 const steps = [
-    'Moje początki w sklepie fotograficznym Fotocenter, jako retuszer zdjęć. Współpracowałem z fotografami, którzy mi nauczyli jak korzystać z Photoshop, oraz jak tworzyć ładne graficznie album ślubnych.',
-    'Interesowało mnie dziedzina web design i zacząłem się uczyć HTML i CSS, po czym podjąłem pracę jako freelancer.',
-    'Życie prywatne prowadził mnie do Polski. Tutaj zacząłem współpracować z firmami w Trójmieście, z Warszawy i z różnych miastach w Polsce.',
-    'Dołączyłem do zespołu w agencji Rebel Artistry, jako web designer. Dużego tutaj się nauczyłem.',
-    'W Trec Nutrition pracowałem nad projektami dla web i do druku.',
-    'Doświadczenie jako grafik komputerowy doślifował moje techniczne umiejętności. Jednak czułem, że programowania i development były ten coś, które mi brakowało.',
-    'Pisać kodu jest moim najlepszym sposób aby pokazać swoją kreatywność i umiejętności umysłowe. Dlatego w 2021 dołączyłem do zespołu agencji Mahalo Media jako junior front-end developer.'
+    'My career started as a digital retoucher. Photoshop was the coolest thing on this world.',
+    `Soon I discovered the magic of the web, and particularly I started learning about -web design.`,
+    'Moved to Poland, starting collaboration with Polish firms as a graphic & web designer.',
+    'Joined Rebel Artistry design team, as an user interface designer. Learnt a lot about team work and design stuff.',
+    'At TREC Nutrition I was very productive, contributing to packaging, catalog, print design, key visuals, user interface design, social media, and more.',
+    'The experience as a designer formed my aesthetic sense, improved my technical skills.',
+    'Having been on both sides of the roles, I realised developer is my way to be creative. In 2021 I joined iGaming Nuts as a junior front-end developer.'
 ];
 
 function nextCareerStep() {
