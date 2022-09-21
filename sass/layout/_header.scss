@@ -44,7 +44,10 @@
           }
 
         &__text {
-            color: $color3;
+          margin-top: 1em;
+          margin-bottom: 1.5em;
+          line-height: 2;
+          color: $color3;
         }
 
         &__instruction {
