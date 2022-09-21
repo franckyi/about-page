@@ -1,3 +1,7 @@
+# See it live
+
+[link here](https://francky.ranja.gitlab.io/about/)
+
 # SCSS Boilerplate
 
 This repository contains SCSS boilerplate code to quickly get started on building a webpage following a simplified version of the 7-1 pattern.
