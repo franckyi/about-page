@@ -39,7 +39,7 @@ const authorHtml = document.querySelector('.reviews-slider__name');
 const titleHtml = document.querySelector('.reviews-slider__title');
 const quoteHtml = document.querySelector('.reviews-slider__review');
 
-const avatars = ['/assets/img/logo-niimbot.jpeg', '/assets/img/logo-daddys.png', '/assets/img/logo-maluszka.png', '/assets/img/mb.jfif', '/assets/img/logo_dajak.png', '/assets/img/ms.jfif', '/assets/img/sb.jfif', '/assets/img/rj.jfif', '/assets/img/ml.jfif', '/assets/img/fortis.jpg', '/assets/img/lg.jpg', '/assets/img/ssp.png', '/assets/img/sauber-logo.png', '/assets/img/rs.jfif'];
+const avatars = ['assets/img/logo-niimbot.jpeg', 'assets/img/logo-daddys.png', 'assets/img/logo-maluszka.png', 'assets/img/mb.jfif', 'assets/img/logo_dajak.png', 'assets/img/ms.jfif', 'assets/img/sb.jfif', 'assets/img/rj.jfif', 'assets/img/ml.jfif', 'assets/img/fortis.jpg', 'assets/img/lg.jpg', 'assets/img/ssp.png', 'assets/img/sauber-logo.png', 'assets/img/rs.jfif'];
 
 const authors = ['Daniel B', 'Michał D', 'Wiesław M', 'Maciej Brzezicki', 'Dominika Paneczko', 'Marcin Skoniecki', 'Sebastian Bagiński', 'Rebecca Jimenez', 'Michał Łuński', 'Pani Kasia', 'Łukasz Grucza', 'Pani Marta', 'Mateusz Deja', 'Radosław Święcki'];
 
