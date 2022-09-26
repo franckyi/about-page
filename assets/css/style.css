@@ -281,6 +281,11 @@ p {
   color: #B1D0E0;
   font-weight: 400;
 }
+.contact .company-info a,
+.contact .company-info a:visited,
+.contact .company-info a:focus {
+  color: #6998AB;
+}
 
 .photo-container {
   max-height: 100vh;
