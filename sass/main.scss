@@ -12,14 +12,7 @@
 //@import "components/form";
 //@import "components/video";
 
-@import "layout/body";
-// @import "layout/footer";
-@import "layout/header";
-@import "layout/headings";
-//@import "layout/nav";
-
 @import "sections/contact";
-//@import "sections/intro";
 @import "sections/my-photo";
 @import "sections/my-story";
 @import "sections/reviews";
@@ -28,3 +21,9 @@
 @import "sections/works";
 
 //@import "utilities/helpers";
+
+@import "layout/body";
+// @import "layout/footer";
+@import "layout/header";
+//@import "layout/nav";
+@import "layout/headings";
