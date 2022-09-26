@@ -7,13 +7,13 @@ const stepHtml = document.querySelector('.career-step__text');
 
 const years = ['2012', '2014', '2016', '2018', '2019', '2019', '2021'];
 const steps = [
-    'My career started as a digital retoucher. Photoshop was the coolest thing on this world.',
+    'My career started as a creative retoucher. Photoshop was the coolest thing in the world!',
     `Soon I discovered the magic of the web, and particularly I started learning about -web design.`,
     'Moved to Poland, starting collaboration with Polish firms as a graphic & web designer.',
     'Joined Rebel Artistry design team, as an user interface designer. Learnt a lot about team work and design stuff.',
     'At TREC Nutrition I was very productive, contributing to packaging, catalog, print design, key visuals, user interface design, social media, and more.',
     'The experience as a designer formed my aesthetic sense, improved my technical skills.',
-    'Having been on both sides of the roles, I realised developer is my way to be creative. In 2021 I joined iGaming Nuts as a junior front-end developer.'
+    'Having been on both sides of the web development process, I realised front-end development is my way to be creative. In 2021 I joined iGaming Nuts as a junior front-end developer.'
 ];
 
 function nextCareerStep() {
