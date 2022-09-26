@@ -13,7 +13,7 @@ const steps = [
     'Joined Rebel Artistry design team, as an user interface designer. Learnt a lot about team work and design stuff.',
     'At TREC Nutrition I was very productive, contributing to packaging, catalog, print design, key visuals, user interface design, social media, and more.',
     'The experience as a designer formed my aesthetic sense, improved my technical skills.',
-    'Having been on both sides of the web development process, I realised front-end development is my way to be creative. In 2021 I joined iGaming Nuts as a junior front-end developer.'
+    'Having been on both sides of the web development process, I found front-end development is my way to be creative. In 2021 I joined iGaming Nuts as a junior front-end developer.'
 ];
 
 function nextCareerStep() {
