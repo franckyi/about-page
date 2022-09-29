@@ -1,13 +1,17 @@
 @import '../abstracts/variables';
 
+
 .open {
-  min-width: 30px;
+  min-width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  background: $color2;
+  &__icon {
   display: flex;
   flex-wrap: nowrap;
   justify-content: center;
-  align-items: center;
-  gap: 3px;
-  background: $color2;
+  gap: 7px;
   cursor: pointer;
   .line {
     &1, &2, &3 {
@@ -16,6 +20,7 @@
       background: $color4;
     }
   }
+}
 }
 
 .isOpen {

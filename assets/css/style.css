@@ -1,14 +1,18 @@
 .open {
-  min-width: 30px;
+  min-width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  background: #1A374D;
+}
+.open__icon {
   display: flex;
   flex-wrap: nowrap;
   justify-content: center;
-  align-items: center;
-  gap: 3px;
-  background: #1A374D;
+  gap: 7px;
   cursor: pointer;
 }
-.open .line1, .open .line2, .open .line3 {
+.open__icon .line1, .open__icon .line2, .open__icon .line3 {
   width: 2px;
   height: 30px;
   background: #B1D0E0;
