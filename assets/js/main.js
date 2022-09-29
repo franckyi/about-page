@@ -1,5 +1,5 @@
 const closeBtnHTML = document.querySelector('.close');
-const openBtnHTML = document.querySelector('.open');
+const openBtnHTML = document.querySelector('.open__icon');
 
 openBtnHTML.addEventListener('click', () => {
     document.querySelector('nav').classList.toggle('isOpen');

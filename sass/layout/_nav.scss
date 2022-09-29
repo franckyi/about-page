@@ -23,18 +23,18 @@
 }
 }
 
-.isOpen {
-  min-width: 400px;
-  position: absolute;
-  top: 40px;
+.nav.isOpen {
   left: 40px;
 }
 
 .nav {
-  width: 0;
+  position: absolute;
+  top: 40px;
+  left: -240px;
+  min-width: 400px;
   background: $color2;
   color: $color3;
-  transition: .5s;
+  transition: .3s;
   li {
     display: flex;
     flex-direction: column;
