@@ -17,10 +17,11 @@
 	position: sticky;
   min-width: 40px;
   display: flex;
-  align-items: center;
-  justify-content: flex-end;
+  justify-content: flex-start;
   background: $color2;
+
   &__icon {
+  padding: 8px 0 8px 15px;
   display: flex;
   flex-wrap: nowrap;
   justify-content: center;
@@ -29,7 +30,7 @@
   .line {
     &1, &2, &3 {
       width: 2px;
-      height: 30px;
+      height: 22px;
       background: $color4;
       transition: .3s;
     }
@@ -38,14 +39,16 @@
 }
 
 .nav.isOpen {
+  position: fixed;
   left: 40px;
+  z-index: 1;
 }
 
 .nav {
-  position: absolute;
-  top: 40px;
+  position: fixed;
   left: -240px;
   min-width: 400px;
+  padding-bottom: 20px;
   background: $color2;
   color: $color3;
   transition: .3s;
