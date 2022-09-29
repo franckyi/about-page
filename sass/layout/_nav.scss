@@ -25,10 +25,11 @@
   left: 40px;
 }
 
-nav {
+.nav {
   width: 0;
   background: $color2;
   color: $color3;
+  transition: .5s;
   li {
     display: flex;
     flex-direction: column;

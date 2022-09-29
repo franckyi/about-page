@@ -21,25 +21,26 @@
   left: 40px;
 }
 
-nav {
+.nav {
   width: 0;
   background: #1A374D;
   color: #6998AB;
+  transition: 0.5s;
 }
-nav li {
+.nav li {
   display: flex;
   flex-direction: column;
   gap: 1em;
   margin-left: 5%;
 }
-nav a,
-nav a:visited,
-nav a:focus,
-nav a:focus-visible {
+.nav a,
+.nav a:visited,
+.nav a:focus,
+.nav a:focus-visible {
   font-size: clamp(18px, 21px, 1.2rem);
   color: #6998AB;
 }
-nav a:hover {
+.nav a:hover {
   color: #B1D0E0;
 }
 
