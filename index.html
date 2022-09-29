@@ -8,7 +8,6 @@
     <meta name="keywords" content="front-end developer, developer, web developer, francky iside, tworzenie stron internetowych, projektowanie stron internetowych">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="assets/css/style.css">
-    <!-- FAV ICON -->
     <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
     <title>Francky Iside</title>
 </head>
@@ -21,16 +20,18 @@
             <nav>
                 <ul>
                     <li>
-                        <a href="">&#9776;</a>
-                        <a href="">Resume</a>
-                        <a href="">About</a>
-                        <a href="">Hobby (coming soon)</a>
-                        <a href="">Skills</a>
-                        <a href="">Portfolio</a>
-                        <a href="">Contact</a>
+                        <a href="javascript: void(0)">X</a>
+                        <a href="#">Resume</a>
+                        <a href="#about">About (coming soon)</a>
+                        <a href="#hobbies">Hobbies (coming soon)</a>
+                        <a href="#skills">Skills</a>
+                        <a href="#portfolio">Portfolio</a>
+                        <a href="#contact">Contact</a>
                     </li>
                 </ul>
             </nav>
+
+            <button onclick="displayNav()">&#9776;</button>
 
             <!-- intro -->
             <header class="intro">
@@ -68,7 +69,7 @@
             </section><!-- /today section -->
            
             <!-- skills heading -->
-            <div class="head-container head-container--dark">
+            <div id="skills" class="head-container head-container--dark">
                 <h1 class="head-container__heading heading">skills</h1>
                 <div class="head-container__line line line--dark"></div>
                 <span class="head-container__subheading subheading">learnt in the last decade</span>
@@ -107,14 +108,14 @@
             </section><!-- /skills list -->
            
             <!-- works heading -->
-            <div class="head-container head-container--dark head-container--bottom">
+            <div id="projects" class="head-container head-container--dark head-container--bottom">
                 <h1 class="head-container__heading heading">projects</h1>
                 <div class="head-container__line line line--dark"></div>
                 <span class="head-container__subheading subheading">Freelance & personal projects</span>
             </div>
 
             <!-- works gallery -->
-            <section class="gallery">
+            <section id="works" class="gallery">
 
                 <a href="https://gitlab.com/deboniuss/weather-app" class="gallery__item" target="_blank" rel="nofollow noindex">
                     <img src="assets/img/js.png" alt="js logo">
@@ -180,7 +181,7 @@
             </section><!-- /reviews slider -->
 
             <!-- contact -->
-            <section class="contact">
+            <section id="contact" class="contact">
 
                 <div class="contact__info">
                     <h2 class="contact__heading">Collaboration</h2>
