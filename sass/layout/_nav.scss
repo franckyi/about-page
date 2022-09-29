@@ -1,7 +1,32 @@
 @import '../abstracts/variables';
 
+.open {
+  min-width: 30px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+  background: $color2;
+  cursor: pointer;
+  .line {
+    &1, &2, &3 {
+      width: 2px;
+      height: 30px;
+      background: $color4;
+    }
+  }
+}
+
+.isOpen {
+  min-width: 400px;
+  position: absolute;
+  top: 40px;
+  left: 40px;
+}
+
 nav {
-  min-width: 300px;
+  width: 0;
   background: $color2;
   color: $color3;
   li {
@@ -9,10 +34,6 @@ nav {
     flex-direction: column;
     gap: 1em;
     margin-left: 5%;
-  }
-  .close {
-    align-self: flex-end;
-    margin: 15px;
   }
   a,
   a:visited,
@@ -24,12 +45,4 @@ nav {
   a:hover {
     color: $color4;
   }
-}
-
-.open {
-  position: absolute;
-  top: 5px;
-  left: 350px;
-  font-size: 25px;
-  color: white;
 }

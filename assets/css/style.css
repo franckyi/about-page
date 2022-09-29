@@ -1,5 +1,28 @@
+.open {
+  min-width: 30px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+  background: #1A374D;
+  cursor: pointer;
+}
+.open .line1, .open .line2, .open .line3 {
+  width: 2px;
+  height: 30px;
+  background: #B1D0E0;
+}
+
+.isOpen {
+  min-width: 400px;
+  position: absolute;
+  top: 40px;
+  left: 40px;
+}
+
 nav {
-  min-width: 300px;
+  width: 0;
   background: #1A374D;
   color: #6998AB;
 }
@@ -8,10 +31,6 @@ nav li {
   flex-direction: column;
   gap: 1em;
   margin-left: 5%;
-}
-nav .close {
-  align-self: flex-end;
-  margin: 15px;
 }
 nav a,
 nav a:visited,
@@ -22,14 +41,6 @@ nav a:focus-visible {
 }
 nav a:hover {
   color: #B1D0E0;
-}
-
-.open {
-  position: absolute;
-  top: 5px;
-  left: 350px;
-  font-size: 25px;
-  color: white;
 }
 
 .skills-list {

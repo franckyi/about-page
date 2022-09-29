@@ -1,3 +1,10 @@
+const closeBtnHTML = document.querySelector('.close');
+const openBtnHTML = document.querySelector('.open');
+
+openBtnHTML.addEventListener('click', () => {
+    document.querySelector('nav').classList.toggle('isOpen');
+});
+
 // career steps carousel
 
 let activeStep = 0;
