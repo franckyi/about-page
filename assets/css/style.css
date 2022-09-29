@@ -11,10 +11,11 @@
 .open {
   position: -webkit-sticky;
   position: sticky;
-  min-width: 40px;
+  min-width: 3vh;
   display: flex;
   justify-content: flex-start;
   background: #1A374D;
+  z-index: 1;
 }
 .open__icon {
   padding: 8px 0 8px 15px;
@@ -545,6 +546,7 @@ p {
 }
 
 .outer-wrapper {
+  top: 0px;
   width: 100vh;
   height: 100vw;
   position: absolute;

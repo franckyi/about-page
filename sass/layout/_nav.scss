@@ -15,10 +15,12 @@
 .open {
 	position: -webkit-sticky;
 	position: sticky;
-  min-width: 40px;
+  min-width: 3vh;
   display: flex;
   justify-content: flex-start;
+  // rotate: -90deg;
   background: $color2;
+  z-index: 1;
 
   &__icon {
   padding: 8px 0 8px 15px;
