@@ -1,3 +1,37 @@
+nav {
+  min-width: 300px;
+  background: #1A374D;
+  color: #6998AB;
+}
+nav li {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  margin-left: 5%;
+}
+nav .close {
+  align-self: flex-end;
+  margin: 15px;
+}
+nav a,
+nav a:visited,
+nav a:focus,
+nav a:focus-visible {
+  font-size: clamp(18px, 21px, 1.2rem);
+  color: #6998AB;
+}
+nav a:hover {
+  color: #B1D0E0;
+}
+
+.open {
+  position: absolute;
+  top: 5px;
+  left: 350px;
+  font-size: 25px;
+  color: white;
+}
+
 .skills-list {
   animation: translation 10s linear infinite;
 }

@@ -20,7 +20,7 @@
             <nav>
                 <ul>
                     <li>
-                        <a href="javascript: void(0)">X</a>
+                        <a class="close" href="javascript: void(0)">X</a>
                         <a href="#">Resume</a>
                         <a href="#about">About (coming soon)</a>
                         <a href="#hobbies">Hobbies (coming soon)</a>
@@ -31,10 +31,10 @@
                 </ul>
             </nav>
 
-            <button onclick="displayNav()">&#9776;</button>
-
             <!-- intro -->
             <header class="intro">
+            <a class="open" onclick="displayNav()">&#9776;</a>
+
                 <span class="intro__heading">Francky Iside</span>
                 <p class="intro__text">I'm a JavaScript developer powered <br>by curiosity, passion, and ambition.
                     <br>Learning Angular framework,<br>experienced in graphic<br> & UI design.

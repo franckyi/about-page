@@ -1,0 +1,35 @@
+@import '../abstracts/variables';
+
+nav {
+  min-width: 300px;
+  background: $color2;
+  color: $color3;
+  li {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    margin-left: 5%;
+  }
+  .close {
+    align-self: flex-end;
+    margin: 15px;
+  }
+  a,
+  a:visited,
+  a:focus,
+  a:focus-visible {
+    font-size: clamp(18px,21px,1.2rem);
+    color: $color3;
+  }
+  a:hover {
+    color: $color4;
+  }
+}
+
+.open {
+  position: absolute;
+  top: 5px;
+  left: 350px;
+  font-size: 25px;
+  color: white;
+}
