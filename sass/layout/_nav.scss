@@ -1,7 +1,20 @@
 @import '../abstracts/variables';
 
+.drawX {
+  &.line1 {
+    transform: rotate(45deg);
+  } 
+  &.line2 {
+    display: none;
+  } 
+  &.line3 {
+    transform: translate(-8px, 0) rotate(-45deg);
+  } 
+}
 
 .open {
+	position: -webkit-sticky;
+	position: sticky;
   min-width: 40px;
   display: flex;
   align-items: center;
@@ -18,6 +31,7 @@
       width: 2px;
       height: 30px;
       background: $color4;
+      transition: .3s;
     }
   }
 }

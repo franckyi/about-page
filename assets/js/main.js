@@ -3,6 +3,10 @@ const openBtnHTML = document.querySelector('.open__icon');
 
 openBtnHTML.addEventListener('click', () => {
     document.querySelector('nav').classList.toggle('isOpen');
+    document.querySelector('.line1').classList.toggle('drawX');
+    document.querySelector('.line2').classList.toggle('drawX');
+    document.querySelector('.line3').classList.toggle('drawX');
+
 });
 
 // career steps carousel

@@ -1,4 +1,16 @@
+.drawX.line1 {
+  transform: rotate(45deg);
+}
+.drawX.line2 {
+  display: none;
+}
+.drawX.line3 {
+  transform: translate(-8px, 0) rotate(-45deg);
+}
+
 .open {
+  position: -webkit-sticky;
+  position: sticky;
   min-width: 40px;
   display: flex;
   align-items: center;
@@ -16,6 +28,7 @@
   width: 2px;
   height: 30px;
   background: #B1D0E0;
+  transition: 0.3s;
 }
 
 .nav.isOpen {
