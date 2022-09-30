@@ -362,7 +362,7 @@ p {
   background-color: #6998AB;
 }
 
-.career-step {
+.light-text-section {
   width: 100vw;
   display: flex;
   flex-direction: column;
@@ -371,16 +371,16 @@ p {
   background-color: #17D7A0;
 }
 @media (min-width: 760px) {
-  .career-step {
+  .light-text-section {
     padding-right: 1%;
     min-width: 80vw;
   }
 }
-.career-step .designer-experience {
+.light-text-section .designer-experience {
   position: absolute;
   top: 20%;
 }
-.career-step__year {
+.light-text-section__year {
   font-family: "Sora";
   font-size: 1.2em;
   width: 5rem;
@@ -393,17 +393,17 @@ p {
   color: #B1D0E0;
 }
 @media (orientation: landscape) {
-  .career-step__year {
+  .light-text-section__year {
     margin: 1rem auto;
   }
 }
-.career-step__about {
+.light-text-section__about {
   margin-top: 25px;
   max-width: 90%;
   font-size: clamp(14px, 16px, 1.5rem);
   color: #1A374D;
 }
-.career-step__text {
+.light-text-section__text {
   max-width: 70%;
   margin: 0 auto;
   line-height: 2.5rem;
