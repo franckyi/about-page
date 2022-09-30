@@ -633,7 +633,7 @@ section {
   margin-top: 1em;
   margin-bottom: 2em;
   color: #6998AB;
-  font-size: clamp(15px, 16px, 1.5rem);
+  font-size: 1.6rem;
 }
 .intro__instruction {
   display: flex;
