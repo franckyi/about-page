@@ -391,11 +391,12 @@ p {
   color: #1A374D;
 }
 .light-text-section.interests {
-  min-width: 400vw;
+  min-width: 300vw;
   align-items: initial;
   flex-wrap: wrap;
   height: 100vh;
   padding: 2%;
+  align-content: flex-start;
 }
 .light-text-section__interests-intro {
   min-height: 100vh;

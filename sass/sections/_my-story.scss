@@ -16,11 +16,12 @@
         color: $color2;
     }
     &.interests {
-        min-width: 400vw;
+        min-width: 300vw;
         align-items: initial;
         flex-wrap: wrap;
         height: 100vh;
         padding: 2%;
+        align-content: flex-start;
     }
     &__interests-intro {
         min-height: 100vh;
