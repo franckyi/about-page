@@ -22,6 +22,21 @@
         height: 100vh;
         padding: 2%;
         align-content: flex-start;
+        @media screen and (min-width:360px) {
+            min-width: 200vw;
+        }
+        @media screen and (orientation:landscape) {
+            min-width: 270vw;
+        }
+        .videos {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            gap: 0.5em;
+            height: 100vh;
+            justify-content: center;
+            margin-top: 4em;
+        }
     }
     &__interests-intro {
         min-height: 100vh;
@@ -57,13 +72,4 @@
         text-align: center;
         color: $color2;
     }
-}
-
-.videos {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    gap: 0.5em;
-    height: 100vh;
-    justify-content: flex-end;
 }
