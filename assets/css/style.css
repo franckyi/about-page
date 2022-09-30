@@ -434,6 +434,15 @@ p {
   color: #1A374D;
 }
 
+.video {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 0.5em;
+  height: 100vh;
+  justify-content: center;
+}
+
 .reviews-slider {
   display: flex;
   flex-direction: column;

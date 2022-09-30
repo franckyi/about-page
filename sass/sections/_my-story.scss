@@ -57,3 +57,12 @@
         color: $color2;
     }
 }
+
+.video {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 0.5em;
+    height: 100vh;
+    justify-content: center;
+}
