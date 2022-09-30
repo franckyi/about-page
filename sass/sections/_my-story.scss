@@ -35,6 +35,12 @@
         }
     }
 
+    &__about {
+        margin-top: 25px;
+        max-width: 90%;
+        font-size: clamp(14px,14px,1rem);
+        color: $color2;
+    }
 
     &__text {
         max-width: 70%;

@@ -397,6 +397,12 @@ p {
     margin: 1rem auto;
   }
 }
+.career-step__about {
+  margin-top: 25px;
+  max-width: 90%;
+  font-size: clamp(14px, 14px, 1rem);
+  color: #1A374D;
+}
 .career-step__text {
   max-width: 70%;
   margin: 0 auto;
@@ -623,9 +629,11 @@ section {
 }
 .intro__text {
   min-width: 330px;
+  max-width: 330px;
   margin-top: 1em;
   margin-bottom: 2em;
   color: #6998AB;
+  font-size: clamp(14px, 16px, 1rem);
 }
 .intro__instruction {
   display: flex;
