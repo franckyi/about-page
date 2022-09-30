@@ -6,15 +6,14 @@ openBtnHTML.addEventListener('click', () => {
     document.querySelector('.line1').classList.toggle('drawX');
     document.querySelector('.line2').classList.toggle('drawX');
     document.querySelector('.line3').classList.toggle('drawX');
-
 });
 
 // career steps carousel
 
 let activeStep = 0;
 
-const yearHtml = document.querySelector('.career-step__year');
-const stepHtml = document.querySelector('.career-step__text');
+const yearHtml = document.querySelector('.light-text-section__year');
+const stepHtml = document.querySelector('.light-text-section__text');
 
 const years = ['2012', '2014', '2016', '2018', '2019', '2019', '2021'];
 const steps = [
