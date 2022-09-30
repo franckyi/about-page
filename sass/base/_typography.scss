@@ -94,8 +94,15 @@ p {
 }
 
 .link {
-    font-style: italic;
     &--dark {
-        color: $color3;
+        font-style: italic;
+
+        &:visited,
+        &:hover,
+        &:focus,
+        &:focus-visible {
+            color: $color2;
+            font-style: italic;
+        }   
     }
 }
