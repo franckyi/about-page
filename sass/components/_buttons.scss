@@ -1,6 +1,4 @@
 .btn-circle {
-
-
     button {
         background: none;
         border: none;
@@ -9,15 +7,11 @@
         cursor: pointer;
         outline: none;
         transition: all 0.1s ease-in-out;
-
         &:hover {
             transform: scale(1.2);
         }
-
     }
-
 }
-
 
 @mixin next-content-base {
     display: block;
@@ -31,15 +25,12 @@
     white-space: nowrap;
     cursor: pointer;
     transition: all 0.1s ease-in-out;
-
     &:hover {
         transform: scale(1.2);
     }
-
 }
 
-
-.career-step .next-content--dark {
+.light-text-section .next-content--dark {
     @include next-content-base;
     color: $color2;
 }

@@ -249,7 +249,7 @@ p {
   transform: scale(1.2);
 }
 
-.career-step .next-content--dark {
+.light-text-section .next-content--dark {
   display: block;
   margin-top: 1em;
   background: none;
@@ -263,7 +263,7 @@ p {
   transition: all 0.1s ease-in-out;
   color: #1A374D;
 }
-.career-step .next-content--dark:hover {
+.light-text-section .next-content--dark:hover {
   transform: scale(1.2);
 }
 
