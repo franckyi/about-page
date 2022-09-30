@@ -434,7 +434,7 @@ p {
   color: #1A374D;
 }
 
-.video {
+.videos {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
