@@ -236,6 +236,13 @@ p {
   line-height: 1.4em;
 }
 
+.link {
+  font-style: italic;
+}
+.link--dark {
+  color: #6998AB;
+}
+
 .btn-circle button {
   background: none;
   border: none;

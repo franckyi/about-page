@@ -92,3 +92,10 @@ p {
 p {
     line-height: 1.4em;
 }
+
+.link {
+    font-style: italic;
+    &--dark {
+        color: $color3;
+    }
+}
