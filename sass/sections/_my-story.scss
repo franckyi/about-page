@@ -1,5 +1,5 @@
 .light-text-section {
-    min-width: 300vw;
+    min-width: 100vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -9,7 +9,22 @@
         padding-right: 1%;
         min-width: 80vw;
     }
-    & .designer-experience {
+    &__p {
+        min-height: 100vh;
+    }
+    &.interests {
+        min-width: 400vw;
+        align-items: initial;
+        flex-wrap: wrap;
+        height: 100vh;
+        padding: 2%;
+    }
+    .text {
+        max-width: 100vw;
+        margin-top: 25vh;
+        padding: 20px;
+    }
+    .designer-experience {
         position: absolute;
         top: 20%;
     }
@@ -35,7 +50,7 @@
         font-size: clamp(14px,16px,1.5rem);
         color: $color2;
     }
-    &__text {
+    &__career-text {
         max-width: 70%;
         margin: 0 auto;
         line-height: 2.5rem;

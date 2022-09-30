@@ -13,7 +13,7 @@ openBtnHTML.addEventListener('click', () => {
 let activeStep = 0;
 
 const yearHtml = document.querySelector('.light-text-section__year');
-const stepHtml = document.querySelector('.light-text-section__text');
+const stepHtml = document.querySelector('.light-text-section__career-text');
 
 const years = ['2012', '2014', '2016', '2018', '2019', '2019', '2021'];
 const steps = [
