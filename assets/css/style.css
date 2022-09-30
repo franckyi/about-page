@@ -363,7 +363,7 @@ p {
 }
 
 .light-text-section {
-  width: 100vw;
+  min-width: 300vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -397,7 +397,7 @@ p {
     margin: 1rem auto;
   }
 }
-.light-text-section__about {
+.light-text-section__p {
   margin-top: 25px;
   max-width: 90%;
   font-size: clamp(14px, 16px, 1.5rem);
