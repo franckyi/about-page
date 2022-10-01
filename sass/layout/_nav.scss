@@ -18,10 +18,8 @@
   min-width: 3vh;
   display: flex;
   justify-content: flex-start;
-  // rotate: -90deg;
   background: $color2;
   z-index: 1;
-
   &__icon {
   padding: 8px 0 8px 15px;
   display: flex;
@@ -42,7 +40,7 @@
 
 .nav.isOpen {
   position: fixed;
-  left: 40px;
+  left: 0;
   z-index: 1;
 }
 
