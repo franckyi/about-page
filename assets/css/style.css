@@ -34,15 +34,15 @@
 
 .nav.isOpen {
   position: fixed;
-  left: 40px;
+  left: 0;
   z-index: 1;
 }
 
 .nav {
   position: fixed;
   left: -240px;
-  min-width: 270px;
-  padding-bottom: 20px;
+  min-width: 200px;
+  padding: 20px;
   background: #1A374D;
   color: #6998AB;
   transition: 0.3s;
