@@ -8,10 +8,12 @@
     background-color: $color2;
     color: $color1;
     &__heading {
+        margin-bottom: 2rem;
         font-size: clamp(2em, 15vh, 3.4em);
         letter-spacing: 1.5px;
     }
     &__links {
+        margin-top: 2rem;
         display: flex;
         flex-direction: column;
         font-size: clamp(1em, 3vh, 1.8em);
@@ -25,7 +27,7 @@
         }
     }
     &__icon {
-        height: .8em;
+        height: 1.1em;
         padding-right: 7px;
     }
     &__icon.phone-icon {
