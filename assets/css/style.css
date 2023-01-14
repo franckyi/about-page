@@ -244,6 +244,14 @@ p {
   font-style: italic;
 }
 
+.text--light, .text--light-italic {
+  color: #6998AB;
+  font-size: 1.6rem;
+}
+.text--light-italic {
+  font-style: italic;
+}
+
 .btn-circle button {
   background: none;
   border: none;
@@ -311,11 +319,6 @@ p {
 .contact__heading {
   font-size: clamp(2em, 15vh, 3.4em);
   letter-spacing: 1.5px;
-}
-.contact__text {
-  margin: 1.5em auto;
-  font-size: clamp(1.8em, 5vh, 2.4em);
-  color: #6998AB;
 }
 .contact__links {
   display: flex;
@@ -475,7 +478,7 @@ p {
     min-width: 60vw;
   }
 }
-.light-text-section.interests .videos {
+.light-text-section.interests .hobby-gallery {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -485,28 +488,28 @@ p {
   margin-top: 4em;
 }
 @media screen and (min-width: 768px) {
-  .light-text-section.interests .videos {
+  .light-text-section.interests .hobby-gallery {
     height: initial;
   }
 }
 @media (orientation: landscape) and (min-width: 844px) {
-  .light-text-section.interests .videos {
+  .light-text-section.interests .hobby-gallery {
     flex-direction: row;
   }
 }
 @media screen and (min-width: 914px) and (orientation: landscape) {
-  .light-text-section.interests .videos {
+  .light-text-section.interests .hobby-gallery {
     flex-direction: row;
     flex-wrap: nowrap;
   }
 }
 @media screen and (min-width: 1024px) {
-  .light-text-section.interests .videos {
+  .light-text-section.interests .hobby-gallery {
     margin-top: 20px;
   }
 }
 @media screen and (min-width: 1280px) {
-  .light-text-section.interests .videos {
+  .light-text-section.interests .hobby-gallery {
     flex-direction: column;
   }
 }
@@ -670,12 +673,6 @@ p {
   align-items: center;
   min-width: 80vw;
   background: #1A374D;
-}
-.today__text {
-  padding-top: 1em;
-  padding-bottom: 1em;
-  text-align: center;
-  color: #B1D0E0;
 }
 .today__illustration {
   min-width: 60%;

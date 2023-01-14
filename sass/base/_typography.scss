@@ -106,3 +106,12 @@ p {
         }   
     }
 }
+
+.text--light {
+    color: #6998AB;
+    font-size: 1.6rem;
+    &-italic {
+        @extend .text--light;
+        font-style: italic;
+    }
+}
