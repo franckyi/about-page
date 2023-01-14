@@ -6,7 +6,7 @@
 # Node artifact files & build folders
 node_modules/
 #sass/
-#assets/css/style.css.map
+#assets/css/
 package-lock.json
 #package.json
 
