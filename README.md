@@ -1,8 +1,7 @@
 ## Purpose
 
-This project was one of the SDA JavaScript course assignments for the students portfolio.\
-The page contains more info about me, is done in horizontal-scroll style and the UI was designed and developed by me in HTML5/SCSS/vanilla JavaScript.\
-In the time I added/removed some features.
+One of the SDA JavaScript course assignments.\
+In the time I changed layout, then added/removed some features. The page contains more info about me, is done in horizontal-scroll style and the UI was designed and developed by me in HTML5/SCSS/vanilla JavaScript.\
 
 ## UI Design
 
