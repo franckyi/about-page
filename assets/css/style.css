@@ -784,6 +784,17 @@ section {
   text-align: center;
   background-color: #1A374D;
 }
+.intro p {
+  width: 420px;
+}
+.intro__link-to-portfolio {
+  margin: 15px auto 30px auto;
+  display: inline-block;
+  padding: 10px 20px;
+  background: #17D7A0;
+  border-radius: 5px;
+  font-size: 14px;
+}
 .intro__heading {
   margin-bottom: 2rem;
   min-width: 330px;
@@ -797,7 +808,7 @@ section {
   margin: 2rem auto;
   display: flex;
   justify-content: center;
-  width: 20px;
+  width: 50px;
   height: 30px;
   border-radius: 10px;
   border: 2px solid #6998AB;
@@ -824,9 +835,10 @@ section {
   display: flex;
   align-items: center;
   justify-content: center;
-  min-width: 100%;
   position: absolute;
-  bottom: 40px;
+  bottom: 20px;
+  width: 180px;
+  font-style: italic;
 }
 .intro__instruction--text {
   display: flex;
